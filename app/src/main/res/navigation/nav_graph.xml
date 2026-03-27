@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ListFragment">
+
+    <fragment
+        android:id="@+id/ListFragment"
+        android:name="com.neda.ecommerce.ui.main.ListFragment"
+        android:label="@string/list_fragment_label"
+        tools:layout="@layout/fragment_list">
+
+        <action
+            android:id="@+id/action_ListFragment_to_DetailsFragment"
+            app:destination="@id/DetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.neda.ecommerce.ui.details.ProductDetailsFragment"
+        android:label="@string/details_fragment_label"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="productId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.neda.ecommerce.ui.favorites.FavoritesFragment"
+        android:label="@string/favorites">
+    </fragment>
+</navigation>

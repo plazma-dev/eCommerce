@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">eProdavnica</string>
+    <string name="list_fragment_label">Proizvodi</string>
+    <string name="details_fragment_label">Detalji proizvoda</string>
+    <string name="favorites">Omiljeno</string>
+    <string name="no_favorites">Nema omiljenih proizvoda</string>
+    <string name="productImage">Slika proizvoda</string>
+    <string name="no_products">Proizvodi nisu pronađeni</string>
+    <string name="general_error">Došlo je do greške</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+    <string name="list_fragment_label">Products</string>
+    <string name="details_fragment_label">Product details</string>
+    <string name="favorites">Favorites</string>
+    <string name="no_favorites">No favorites</string>
+    <string name="productImage">Product image</string>
+    <string name="no_products">No products found</string>
+    <string name="general_error">Something went wrong</string>
+</resources>
